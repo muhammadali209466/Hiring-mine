@@ -1,0 +1,703 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.hiringmine {
+  width: 186px;
+  height: 36px;
+}
+
+.postjob {
+  color: #4d3ee1;
+}
+
+.postjob:hover {
+  color: #301dda;
+}
+
+.logins {
+  width: 95%;
+  margin: 0 auto;
+  justify-content: space-between;
+  display: flex;
+}
+
+.search {
+  width: 22px;
+  height: 22px;
+}
+
+.listing {
+  list-style-type: none;
+}
+
+.dig {
+  text-align: center;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  background-color: #fcfcff;
+}
+
+.dig h1 {
+  font-size: 70px;
+
+  font-weight: 800;
+  color: #5961e0;
+}
+
+.connects {
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  background-color: #fcfcff;
+  margin-bottom: 20px;
+}
+
+.connects p {
+  font-size: 21px;
+  text-align: center;
+  line-height: 22px;
+}
+
+.key {
+  width: 100%;
+  margin: 0 auto;
+  background-color: #f0eeff;
+  text-align: center;
+}
+
+.key input {
+  background-color: transparent;
+  width: 50%;
+
+  padding: 8px;
+  outline: none;
+  border: solid #dcdce5;
+}
+
+.key :hover {
+  border: solid 1px;
+}
+
+.key :focus {
+  border: #4d3ee1 solid;
+}
+
+.jobs {
+  width: 100%;
+  margin: 0 auto;
+  gap: 16px;
+  text-align: center;
+  background-color: #eeebff;
+}
+
+.find {
+  border-radius: 20px;
+
+  padding: 10px;
+  font-weight: 700;
+  height: 50px;
+  width: 100px;
+  margin-top: 30px;
+  background-color: #6851ff;
+}
+
+.find:hover {
+  background-color: #4838b2;
+}
+
+.popular {
+  text-align: center;
+  background-color: #eeebff;
+  color: #7241ed;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.software {
+  color: #6851ff;
+  border-radius: 9px;
+  border: #5961e0 solid 1px;
+  background-color: transparent;
+  font-weight: 700;
+  flex-wrap: wrap;
+  padding: 8px;
+}
+
+.software:hover {
+  border: solid 2px #5961e0;
+}
+
+.developing {
+  padding: 17px;
+}
+
+.designer {
+  padding: 17px;
+}
+
+.man img {
+  width: 100%;
+  height: 235px;
+}
+
+.get {
+  background-color: #ffffff;
+  margin-bottom: 40px;
+  padding-top: 66px;
+  padding-bottom: 30px;
+}
+
+.get h1 {
+  color: #3f3f3f;
+  margin-top: 30px;
+
+  font-size: 50px;
+}
+
+.easy {
+  color: #6851ff;
+  font-size: 50px;
+}
+
+.get p {
+  font-size: 20px;
+  color: #3e3131;
+}
+
+.your {
+  display: flex;
+
+  justify-content: space-around;
+}
+
+.account {
+  border: #4d3ee1 solid 1px;
+  border-radius: 14px;
+  width: 22%;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+}
+
+.account h3 {
+  color: #6851ff;
+}
+
+.account p {
+  color: #3e3131;
+}
+
+.address {
+  background-color: transparent;
+}
+
+.account:hover {
+  cursor: pointer;
+  scale: 1.1;
+}
+
+.super {
+  background-color: #ffffff;
+
+  padding-top: 66px;
+}
+
+.super h1 {
+  color: #3f3f3f;
+}
+
+.fast {
+  color: #6851ff;
+}
+
+.super p {
+  font-size: 20px;
+  color: #3f3f3f;
+  font-weight: 700;
+}
+
+.carrer {
+  background-color: #ffffff;
+  padding-top: 70px;
+  padding-bottom: 30px;
+}
+
+.carrer h1 {
+  font-size: 50px;
+  color: #6851ff;
+}
+
+.waiting {
+  color: #3f3f3f;
+}
+
+.art {
+  display: flex;
+  background-color: #ffffff;
+  justify-content: space-around;
+}
+
+.brushing {
+  color: #8b79ff;
+}
+
+.sales p {
+  font-size: 20px;
+  color: #3f3f3f;
+}
+
+.sales {
+  color: #6851ff;
+  border: #4d3ee1 solid 1px;
+  border-radius: 14px;
+  width: 22%;
+  margin-bottom: 30px;
+  background-color: #f8f7ff;
+  height: 200px;
+  padding-top: 20px;
+}
+
+.sales:hover {
+  cursor: pointer;
+  scale: 1.1;
+}
+
+.managment {
+  background-color: #ffffff;
+  justify-content: space-around;
+  display: flex;
+  padding-bottom: 70px;
+}
+
+.information {
+  color: #6851ff;
+  border: #4d3ee1 solid 1px;
+  border-radius: 14px;
+  width: 22%;
+  margin-bottom: 30px;
+  background-color: #f8f7ff;
+  height: 200px;
+  padding-top: 20px;
+}
+
+.information:hover {
+  cursor: pointer;
+  scale: 1.1;
+}
+
+.toping {
+  background-color: #ffffff;
+  color: #6851ff;
+  padding-bottom: 35px;
+}
+
+.toping h1 {
+  font-size: 50px;
+}
+
+.openings {
+  color: #3f3f3f;
+}
+
+.taxologist {
+  display: flex;
+  position: relative;
+  background-color: #ffffff;
+  padding-bottom: 30px;
+}
+
+.makh {
+  background-color: #ffffff;
+  height: 250px;
+  flex: 1;
+  font-weight: 500;
+  text-align: start;
+  border: 3px solid #f0f0f0;
+  border-radius: 10px;
+  margin-left: 10px;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.hours {
+  position: absolute;
+  bottom: 30px;
+}
+
+.salary {
+  color: #4d3bdb;
+}
+
+.consultant {
+  font-weight: 800;
+}
+
+.hana {
+  flex: 1;
+  background-color: #ffffff;
+  height: 250px;
+
+  font-weight: 500;
+  text-align: start;
+  border: 3px solid #f0f0f0;
+  border-radius: 10px;
+  margin-left: 10px;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.sap {
+  flex: 1;
+  background-color: #ffffff;
+  height: 250px;
+  font-weight: 500;
+  text-align: start;
+  border: 3px solid #f0f0f0;
+  border-radius: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.minings {
+  width: 44px;
+  height: 26px;
+  position: absolute;
+  left: 340px;
+  top: 20px;
+}
+
+.view {
+  position: absolute;
+  left: 330px;
+  bottom: 60px;
+}
+
+.posted {
+  position: absolute;
+  left: 270px;
+  bottom: 30px;
+}
+
+.hasan {
+  color: #4d3bdb;
+  font-weight: 600;
+}
+
+.bw {
+  width: 44px;
+  height: 26px;
+  position: absolute;
+  left: 770px;
+  top: 20px;
+}
+
+.ago {
+  font-weight: 800;
+}
+
+.rs {
+  color: #4d3bdb;
+}
+
+.houring {
+  position: absolute;
+  bottom: 30px;
+}
+
+.posting {
+  position: absolute;
+  left: 700px;
+  bottom: 30px;
+}
+
+.viewing {
+  position: absolute;
+  left: 730px;
+  bottom: 70px;
+}
+
+.msezy {
+  width: 44px;
+  height: 26px;
+  position: absolute;
+  top: 20px;
+  right: 40px;
+}
+
+.analyst {
+  font-weight: 800;
+}
+
+.RS {
+  color: #4d3bdb;
+}
+
+.agos {
+  position: absolute;
+  bottom: 30px;
+}
+
+.operate {
+  position: absolute;
+  right: 40px;
+  bottom: 70px;
+}
+
+.operation {
+  position: absolute;
+  right: 40px;
+  bottom: 30px;
+}
+
+.buisness {
+  display: flex;
+  position: relative;
+  background-color: #ffffff;
+  padding-bottom: 30px;
+}
+
+.marketing {
+  flex: 1;
+  background-color: #ffffff;
+  height: 250px;
+  font-weight: 500;
+  text-align: start;
+  border: 3px solid #f0f0f0;
+  border-radius: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.intelligence {
+  width: 44px;
+  height: 26px;
+  position: absolute;
+  left: 340px;
+  top: 30px;
+}
+
+.cognos {
+  font-weight: 800;
+}
+
+.Rs {
+  color: #4d3bdb;
+}
+
+.Agos {
+  position: absolute;
+  bottom: 30px;
+}
+
+.Operate {
+  position: absolute;
+  left: 330px;
+  bottom: 70px;
+}
+
+.Operation {
+  position: absolute;
+  left: 280px;
+  bottom: 30px;
+}
+
+.managing {
+  flex: 1;
+  background-color: #ffffff;
+  height: 250px;
+  font-weight: 500;
+  text-align: start;
+  border: 3px solid #f0f0f0;
+  border-radius: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.selling {
+  width: 44px;
+  height: 26px;
+  position: absolute;
+  top: 30px;
+  left: 750px;
+}
+
+.export {
+  font-weight: 800;
+}
+
+.rS {
+  color: #4d3bdb;
+}
+
+.AGos {
+  position: absolute;
+  bottom: 30px;
+}
+
+.import {
+  position: absolute;
+  left: 750px;
+  bottom: 70px;
+}
+
+.post {
+  position: absolute;
+  left: 690px;
+  bottom: 30px;
+}
+
+.pakistan {
+  position: absolute;
+  bottom: 70px;
+}
+
+.system {
+  flex: 1;
+  background-color: #ffffff;
+  height: 250px;
+  font-weight: 500;
+  text-align: start;
+  border: 3px solid #f0f0f0;
+  border-radius: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.poster {
+  position: absolute;
+  bottom: 30px;
+  left: 1100px;
+}
+
+.importing {
+  position: absolute;
+  right: 50px;
+  bottom: 70px;
+}
+
+.exporting {
+  width: 44px;
+  height: 26px;
+  position: absolute;
+  top: 30px;
+  right: 50px;
+}
+
+.hireworking {
+  display: flex;
+  background-color: #ffffff;
+  padding-bottom: 50px;
+  justify-content: space-between;
+}
+
+.hirework img {
+  width: 401px;
+  height: 250px;
+}
+.hireworks img {
+  width: 401px;
+  height: 250px;
+}
+.hirework {
+  margin-left: 40px;
+  color: #3f3f3f;
+}
+.hirework h1 {
+  font-size: 50px;
+}
+.whos {
+  color: #6851ff;
+}
+.hireworks h1 {
+  font-size: 50px;
+}
+.hireworks {
+  margin-right: 40px;
+  color: #3f3f3f;
+}
+.yours {
+  color: #6851ff;
+}
+.foring {
+  color: #3f3f3f;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #683fe8;
+}
+.footing {
+  margin-left: 50px;
+  margin-top: 70px;
+  width: 334px;
+  height: 250px;
+  color: #ffffff;
+  line-height: 25px;
+}
+.logoss {
+  padding: 15px;
+}
+.contactus {
+  color: #ffffff;
+  margin-top: 100px;
+  margin-right: 50px;
+}
+.contactus a {
+  text-decoration: none;
+  color: #ffffff;
+}
+.lastsection {
+  background-color: #9046fc;
+  margin-top: 4px;
+  padding-bottom: 40px;
+}
+
+.lastsection a {
+  text-decoration: none;
+  color: #ffffff;
+  padding: 20px;
+  font-size: 18px;
+}
+.lastsection a:hover {
+  text-decoration: underline;
+}
+.lastsection p {
+  color: #ffffff;
+  font-size: 18px;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width:500px) {
+  
+  .dig h1{
+    font-size: 29px;
+  }
+  .dig{
+    width: 500px;
+  }
+ .connects p {
+font-size:20px ;
+ } 
+ .key input{
+  width: 300px;
+ }
+}
